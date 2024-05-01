@@ -158,9 +158,7 @@ public struct VideoEditor: View {
                 // delete from storage
                 playerVM.pause()
                 isPresented = false
-                videoURL = nil
                 isPresented = false
-                videoURL = nil
                 MediaPicker.cleanDirectory()
                 VideoUtil.cleanDirectory()
             }
